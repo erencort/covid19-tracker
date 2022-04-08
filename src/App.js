@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setData } from "./redux/infoSlice";
 import Input from "./components/Input";
+import Chart from "./components/Chart";
 
 function App() {
   const dispatch = useDispatch();
@@ -54,6 +55,7 @@ function App() {
           "Loading..."
         )}
         <Input />
+        <Chart />
       </div>
     </div>
   );
